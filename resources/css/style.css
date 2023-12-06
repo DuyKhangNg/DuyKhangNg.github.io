@@ -1,3 +1,7 @@
+* {
+  
+}
+
 h1, 
 h2, 
 h3, 
@@ -5,32 +9,46 @@ p {
   font-family: "Helvetica", sans-serif;
 }
 
+nav{
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  display: inline-block;
+  background-color: bisque;
+  position: fixed;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
 h1 {
+  margin-top: 50px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
   text-align: center;
   font-size: 100px;
   color: khaki;
-}
-
-.item h2 {
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
-}
-
-.price {
-  font-weight: bold;
-  color: blue;
-}
-
-#brush {
-  background-color: mediumspringgreen;
-}
-
-#frame {
-  background-color: lightcoral;
-}
-
-#paint {
-  background-color: skyblue;
 }
