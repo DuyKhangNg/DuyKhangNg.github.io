@@ -1,15 +1,4 @@
-* {
-  
-}
-
-h1, 
-h2, 
-h3, 
-p {
-  font-family: "Helvetica", sans-serif;
-}
-
-nav{
+nav {
   top: 0px;
   height: 50px;
   width: 100%;
