@@ -1,3 +1,19 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0 auto;
+  height: 10000px;
+}
+#logo {
+  height: 60px;
+  height: 60px;
+  border: 2px solid #555;
+  position: fixed;
+  top: 10px;
+  left: 40px;
+}
+
 nav {
   top: 0px;
   height: 50px;
@@ -6,7 +22,6 @@ nav {
   background-color: bisque;
   position: fixed;
   text-align: center;
-  margin: 0 auto;
 }
 
 /* Add a black background color to the top navigation */
@@ -20,7 +35,7 @@ nav {
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 50px;
   text-decoration: none;
   font-size: 17px;
   border-bottom: 3px solid transparent;
@@ -35,9 +50,10 @@ nav {
 }
 
 h1 {
+  font-family: 'Noto Sans', sans-serif;
   margin-top: 50px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  background-image: url(/solution/resources/images/10.jpg);
   text-align: center;
   font-size: 100px;
-  color: khaki;
+  color: #db7b15;
 }
